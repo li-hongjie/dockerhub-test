@@ -1,2 +1,3 @@
 FROM scratch
-CMD echo "hello docker"
+ADD hello /
+CMD ["/hello"]
